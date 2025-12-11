@@ -1,0 +1,58 @@
+{
+    "name": "dsrt-library",
+    "version": "1.0.0",
+    "description": "Professional Unreal Engine Library by DSRT Team",
+    "author": "DSRT Team",
+    "license": "MIT",
+    "engine_version": "5.0+",
+    "platforms": [
+        "Win64",
+        "Mac",
+        "Linux"
+    ],
+    "modules": [
+        {
+            "name": "MyLibraryCore",
+            "type": "Runtime",
+            "loading_phase": "Default"
+        },
+        {
+            "name": "MyLibraryEditor",
+            "type": "Editor",
+            "loading_phase": "PostEngineInit"
+        }
+    ],
+    "plugins": [
+        {
+            "name": "MyLibrary",
+            "enabled": true,
+            "target_platforms": ["Win64", "Mac", "Linux"]
+        }
+    ],
+    "dependencies": [],
+    "files": [
+        "Plugins/MyLibrary/**",
+        "Content/ExampleMaps/**",
+        "Content/Materials/**",
+        "Content/Meshes/**",
+        "Docs/**",
+        "Examples/**",
+        "Source/MyLibraryCore/**",
+        "Source/MyLibraryEditor/**",
+        "ThirdParty/**",
+        "README.md",
+        "LICENSE.md",
+        "CHANGELOG.md"
+    ],
+    "excluded_files": [
+        "**/*.pdb",
+        "**/*.ipch",
+        "**/*.sdf",
+        "**/*.suo",
+        "**/*.user",
+        "Build/**",
+        "Intermediate/**",
+        "Saved/**",
+        ".git/**"
+    ]
+}
