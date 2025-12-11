@@ -56,7 +56,10 @@ License
 
 This project is licensed under the MIT License - see LICENSE.md for details.
 
-## `CHANGELOG.md`
+```
+
+
+### `CHANGELOG.md`
 ```markdown
 # Changelog
 
