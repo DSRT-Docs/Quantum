@@ -56,4 +56,22 @@ License
 
 This project is licensed under the MIT License - see LICENSE.md for details.
 
-```
+## `CHANGELOG.md`
+```markdown
+# Changelog
+
+All notable changes to DSRT Engine will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.0] - 2024-01-01
+### Added
+- Initial release of DSRT Engine
+- Core engine architecture
+- Multi-platform support
+- Custom renderer with render graph
+- ECS system implementation
+- Built-in scripting VM
+- Full-featured editor
+- Asset pipeline tools
