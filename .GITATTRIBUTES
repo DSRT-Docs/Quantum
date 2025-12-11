@@ -1,0 +1,55 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# C++ source files
+*.cpp text
+*.h text
+*.hpp text
+
+# Build files
+*.uproject text
+*.uplugin text
+*.sln text
+*.vcxproj text
+*.vcxproj.filters text
+
+# Configuration files
+*.ini text
+*.config text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+
+# Script files
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.py text eol=lf
+
+# Documentation
+*.md text
+*.txt text
+*.rst text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.exe binary
+*.lib binary
+*.a binary
+*.pdb binary
+
+# Unreal specific
+*.uasset binary
+*.umap binary
+*.ubulk binary
+*.uexp binary
+*.uptnl binary
